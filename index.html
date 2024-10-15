@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  </head>
+  <body>
+    <!-- Centered Generate PDF Button -->
+    <div class="pdf-button-container">
+      <button id="generate-pdf">Generate PDF</button>
+    </div>
+
+    <section class="container">
+      <form>
+        <input type="text" placeholder="Enter a todo" />
+      </form>
+      <div class="output"></div>
+    </section>
+
+    <div class="message-container">Item Deleted</div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
